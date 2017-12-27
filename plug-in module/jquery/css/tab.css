@@ -1,0 +1,22 @@
+div input {
+	outline: none;
+	border: none;
+	width: 60px;
+	height: 30px;
+	font:16px/30px "微软雅黑";
+	text-align: center;
+	margin-right: 10px;
+	background-color: orange;
+	cursor: pointer;
+}
+div input.active {
+	background-color: red;
+}
+div div {
+	display: none;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	text-align: center;
+	font: bold 30px/150px "微软雅黑";
+}
